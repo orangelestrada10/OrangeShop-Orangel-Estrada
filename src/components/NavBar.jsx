@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import Carrito from "./assets/img/carrito.png"
+import Logo from "./assets/img/OrangeShop.png"
+import Cart from "./Cart"
+
+
 
 function NavBar() {
   return (
@@ -6,7 +11,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand text-info" href="#">
-            OrangeShop
+          <img className="App" src={Logo} width="100px" height="100px"/>
           </a>
           <button className="navbar-toggler">
           </button>
@@ -34,8 +39,8 @@ function NavBar() {
               </li>
             </ul>
             <form className="d-flex">
-              <button className="btn btn-outline-success" type="submit">
-                Carrito
+            <button className="btn" type="submit">
+            <img className="App" src={Carrito} width="60px" height="60px"/>
               </button>
             </form>
           </div>
