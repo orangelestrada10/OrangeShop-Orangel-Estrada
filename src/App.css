@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+ .boton- {
+  position: relative;
+  left: 530px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 20px;
+  width: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.botonSuma {
+  position: relative;
+  left: 750px;
+  bottom: 45px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 20px;
+  width: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contador {
+  position: relative;
+  left: 650px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 80px;
+  width: 30px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
